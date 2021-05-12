@@ -5,7 +5,7 @@ body {
 hr {
   border-style: dotted none none;
   border-width: 7px;
-  border-color: grey;
+  border-color: #eeeeee;
   width: 5%;
 }
 
@@ -14,9 +14,11 @@ img {
 }
 h1 {
   color: #66bfbf;
+  text-align: center;
 }
 
 h3 {
   color: #66bfbf;
+  text-align: center;
 
 }
