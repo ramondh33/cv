@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+      body {
+        background-color: rgb(189, 251, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: rgb(4, 190, 175)">Contact Me</h1>
+    <p>Please use the following form to get in contact with me. Thanks!</p>
+    <form
+      action="mailto:natasmai187@gmail.com"
+      enctype="text/plain"
+      method="post"
+      style="padding: 10px"
+    >
+      <label for="uname">Name:</label><br />
+      <input type="text" name="uname" id="uname" style="margin: 10px" /><br />
+      <label for="uemail">Email:</label><br />
+      <input
+        type="email"
+        name="uemail"
+        id="uemail"
+        style="margin: 10px"
+      /><br />
+      <label for="subject">Subject:</label><br />
+      <textarea
+        name="subject"
+        id="subject"
+        cols="30"
+        rows="1"
+        style="margin: 10px"
+      ></textarea
+      ><br />
+      <label for="message" name="message" id="message"
+        >Enter your message below:</label
+      ><br />
+      <textarea
+        name="message"
+        id="message"
+        cols="100"
+        rows="20"
+        style="margin: 10px"
+      ></textarea
+      ><br />
+      <label for="agree">Best way to contact you:</label><br />
 
-<head>
-  <meta charset="utf-8">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="css/styles.css">
+      <input type="radio" style="margin: 10px 0" />
+      <label for="text">Text</label><br />
 
-</head>
-
-<body>
-  <p>If you would like to contact me please send me an email using the form below. Thank you!</p>
-  <form action="mailto:ramon.d.hernandez@gmail.com" method="post" enctype="text/plain">
-    <label for="yourName">Name:</label>
-    <input type="text" name="" value="" required><br>
-    <label for="yourEmail">Email:</label>
-    <input type="email" name="" value="" required><br>
-    <label for="yourMessage">Your Message:</label><br>
-    <textarea name="name" rows="10" cols="30"></textarea><br>
-    <input type="submit" name="" value="Send">
-
-  </form>
-  <p>To go back to the main page please click <a href="index.html">here</a></p>
-</body>
-
+      <input type="radio" style="margin: 10px 0" />
+      <label for="call">Phone Call</label><br />
+      <input type="radio" style="margin: 10px 0" />
+      <label for="email">Email</label><br />
+      <button
+        type="button"
+        style="margin: 10px 0"
+        onclick="alert('Thanks for reaching out!');"
+        target="blank"
+      >
+        Send
+      </button>
+    </form>
+    <p>To return to the home page click <a href="index.html">Here</a></p>
+  </body>
 </html>
