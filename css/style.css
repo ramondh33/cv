@@ -56,8 +56,14 @@ hr {
   margin: 20px auto;
   padding: 25px 0;
   position: relative;
-  max-width: 40%;
+  max-width: 70%;
   text-align: center;
+}
+
+.bottom {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 70%;
 }
 
 h3 {
@@ -153,8 +159,4 @@ p {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-}
-
-div {
-  display: block;
 }
